@@ -1,0 +1,30 @@
+.tag {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-style: groove;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(28, 27, 27);
+    border-style: groove;
+}
+
+.delete-button {
+    border-radius: 4px;
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    background-color: rgb(28, 27, 27);
+    font-size: 24px;
+    cursor: pointer;
+    color: #f8f8f8;
+}
+
+.delete-button:hover {
+    color: #ff0000;
+}
